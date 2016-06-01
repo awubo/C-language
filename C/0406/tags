@@ -1,0 +1,22 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+GeShi	a.cpp	/^GeShi(int width,char ch){this->width=width;this->ch=ch;}$/;"	f	language:C++	class:GeShi	signature:(int width,char ch)
+GeShi	a.cpp	/^class GeShi{$/;"	c	language:C++	file:
+Ghost	b.cpp	/^	Ghost(T t,S s)$/;"	f	language:C++	class:Ghost	signature:(T t,S s)
+Ghost	b.cpp	/^template<class T,class S> class Ghost$/;"	c	language:C++	file:
+ch	a.cpp	/^char ch;$/;"	m	language:C++	class:GeShi	file:
+display	b.cpp	/^template <class T,class S> void display(T* a,S* b,int n)$/;"	f	language:C++	signature:(T* a,S* b,int n)
+display	b.cpp	/^template <class T> void display(T *t,int n)$/;"	f	language:C++	signature:(T *t,int n)
+main	0406.cpp	/^int main()$/;"	f	language:C++	signature:()
+main	a.cpp	/^int main()$/;"	f	language:C++	signature:()
+main	b.cpp	/^ int main()$/;"	f	language:C++	signature:()
+operator <<	a.cpp	/^friend ostream& operator<<(ostream &on,GeShi& geshi)$/;"	f	language:C++	class:GeShi	signature:(ostream &on,GeShi& geshi)
+s	b.cpp	/^S s;$/;"	m	language:C++	class:Ghost	file:
+show	b.cpp	/^	void show()$/;"	f	language:C++	class:Ghost	signature:()
+sort	b.cpp	/^template <class T> void sort(T *t,int n)$/;"	f	language:C++	signature:(T *t,int n)
+t	b.cpp	/^T t;$/;"	m	language:C++	class:Ghost	file:
+width	a.cpp	/^int width;$/;"	m	language:C++	class:GeShi	file:

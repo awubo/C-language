@@ -1,0 +1,35 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+FILENAME	employee.h	9;"	d
+StringSplit	employee.h	/^void StringSplit(string s,int len,vector<string>& vec)$/;"	f
+_EMPLOYEE_	employee.h	15;"	d
+age	employee.h	/^int age;$/;"	m	class:employee
+emp	employee.h	/^vector<employee> emp;$/;"	v
+employee	employee.h	/^        employee(const employee &emp)$/;"	f	class:employee
+employee	employee.h	/^        employee(string num="",string name="",\\$/;"	f	class:employee
+employee	employee.h	/^class employee$/;"	c
+getAge	employee.h	/^        int getAge(){return age;}$/;"	f	class:employee
+getId	employee.h	/^        string getId(){return id;}$/;"	f	class:employee
+getName	employee.h	/^        string getName(){return name;}$/;"	f	class:employee
+getNum	employee.h	/^        string getNum(){return num;}$/;"	f	class:employee
+getResume	employee.h	/^        string getResume(){return resume;}$/;"	f	class:employee
+getSalary	employee.h	/^        double getSalary(){return salary;}$/;"	f	class:employee
+getSex	employee.h	/^        string getSex(){return sex;}$/;"	f	class:employee
+id	employee.h	/^string id;$/;"	m	class:employee
+inputEmployee	employee.h	/^void inputEmployee(void)$/;"	f
+main	employee.cc	/^int main()$/;"	f
+name	employee.h	/^string name;$/;"	m	class:employee
+num	employee.h	/^string num;$/;"	m	class:employee
+operator <<	employee.h	/^        friend ostream& operator<<(ostream &os,const employee &emp)$/;"	f	class:employee
+operator >>	employee.h	/^ifstream &operator>>(ifstream &ifs,employee &emp)$/;"	f
+operator >>	employee.h	/^istream& operator>>(istream &is,employee &emp)$/;"	f
+readFile	employee.h	/^void readFile()$/;"	f
+resume	employee.h	/^string resume;$/;"	m	class:employee
+salary	employee.h	/^double salary;$/;"	m	class:employee
+sex	employee.h	/^string sex;$/;"	m	class:employee
+showEmployee	employee.h	/^void showEmployee()$/;"	f
+writeFile	employee.h	/^void writeFile()$/;"	f

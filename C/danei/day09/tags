@@ -1,0 +1,44 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+A	class.cc	/^		A()$/;"	f	language:C++	class:A	signature:()
+A	class.cc	/^class A{$/;"	c	language:C++	file:
+B	class.cc	/^class B: public A $/;"	c	language:C++	file:
+_BOOK_H_	book.h	9;"	d	language:C++
+a	class.cc	/^		int a;$/;"	m	language:C++	class:A	file:
+b	class.cc	/^		int b;$/;"	m	language:C++	class:A	file:
+bin	bin.cc	/^void bin(int n)$/;"	f	language:C++	signature:(int n)
+book	book.h	/^	book()$/;"	f	language:C++	class:book	signature:()
+book	book.h	/^	book(string name,int num,float price):name(name),num(num),price(price)$/;"	f	language:C++	class:book	signature:(string name,int num,float price)
+book	book.h	/^class book$/;"	c	language:C++
+c	class.cc	/^		int c;$/;"	m	language:C++	class:A	file:
+child	parent.cc	/^	child():mc(0.0),parent()$/;"	f	language:C++	class:child	signature:()
+child	parent.cc	/^	child(double d,double mp):mc(d),parent()$/;"	f	language:C++	class:child	signature:(double d,double mp)
+child	parent.cc	/^class child:public parent $/;"	c	language:C++	file:
+fun	a.cc	/^void fun(const char **a,int n)$/;"	f	language:C++	signature:(const char **a,int n)
+fun	class.cc	/^	void fun()$/;"	f	language:C++	class:B	signature:()
+main	a.cc	/^int main()$/;"	f	language:C++	signature:()
+main	bin.cc	/^int main()$/;"	f	language:C++	signature:()
+main	book.cc	/^int main()$/;"	f	language:C++	signature:()
+main	cai.cc	/^int main()$/;"	f	language:C++	signature:()
+main	class.cc	/^int main()$/;"	f	language:C++	signature:()
+main	parent.cc	/^int main()$/;"	f	language:C++	signature:()
+mc	parent.cc	/^	double mc;$/;"	m	language:C++	class:child	file:
+mp	parent.cc	/^int mp;$/;"	m	language:C++	class:parent	file:
+name	book.h	/^	string name;$/;"	m	language:C++	class:book
+nongchanpin	cai.cc	/^class nongchanpin{$/;"	c	language:C++	file:
+num	book.h	/^	int num;$/;"	m	language:C++	class:book
+parent	parent.cc	/^	parent():mp(0)$/;"	f	language:C++	class:parent	signature:()
+parent	parent.cc	/^	parent(int d):mp(d)$/;"	f	language:C++	class:parent	signature:(int d)
+parent	parent.cc	/^class parent$/;"	c	language:C++	file:
+price	book.h	/^	float price;$/;"	m	language:C++	class:book
+set	book.h	/^	void set(string name,int num,float price)$/;"	f	language:C++	class:book	signature:(string name,int num,float price)
+show	book.h	/^	void show()$/;"	f	language:C++	class:book	signature:()
+show	class.cc	/^		void show()$/;"	f	language:C++	class:A	signature:()
+shucai	cai.cc	/^class shucai:virtual public nongchanpin$/;"	c	language:C++	file:
+shuiguo	cai.cc	/^class shuiguo:virtual public nongchanpin$/;"	c	language:C++	file:
+xihongshi	cai.cc	/^class xihongshi:public shucai,public shuiguo$/;"	c	language:C++	file:
+~parent	parent.cc	/^	~parent()$/;"	f	language:C++	class:parent	signature:()

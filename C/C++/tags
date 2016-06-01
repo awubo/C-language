@@ -1,0 +1,118 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+A	02test.h	/^class A{$/;"	c
+A	04test.cpp	/^class A{$/;"	c	file:
+A	05test.cpp	/^	A()$/;"	f	class:A
+A	05test.cpp	/^class A{$/;"	c	file:
+Animal	01test.cpp	/^	Animal(string name="Animal",int age=0)$/;"	f	class:Animal
+Animal	01test.cpp	/^class Animal{$/;"	c	file:
+B	02test.h	/^class B :public A$/;"	c
+B	04test.cpp	/^class B{$/;"	c	file:
+B	05test.cpp	/^		B()$/;"	f	class:B
+B	05test.cpp	/^class B:public A$/;"	c	file:
+BIN	makefile	/^BIN=01test 03test$/;"	m
+Bird	01test.cpp	/^class Bird:public Animal{$/;"	c	file:
+C	02test.h	/^class C:private B$/;"	c
+C	04test.cpp	/^class C{$/;"	c	file:
+C	05test.cpp	/^class C:public A$/;"	c	file:
+CC	makefile	/^CC=g++$/;"	m
+Complex	25.cpp	/^		Complex(int r=0,int i=0)$/;"	f	class:Complex
+Complex	25.cpp	/^class Complex{$/;"	c	file:
+D	04test.cpp	/^class D:public A,public B,public C  $/;"	c	file:
+GetMax	T.cpp	/^template<class T> T GetMax(T a,T b)$/;"	f
+Ghost	03test.h	/^	Ghost(string name="",int age=0)$/;"	f	class:Test::Ghost
+Ghost	03test.h	/^class Ghost{$/;"	c	namespace:Test
+Ghost	27.cpp	/^Ghost(Ghost &g)$/;"	f	class:Ghost
+Ghost	27.cpp	/^Ghost(string name="Test",int age=0)$/;"	f	class:Ghost
+Ghost	27.cpp	/^class Ghost{$/;"	c	file:
+T	namespace.cpp	/^	T(int t=0){this->t=t;}$/;"	f	class:wubo::T
+T	namespace.cpp	/^class T{$/;"	c	namespace:wubo	file:
+Test	03test.h	/^namespace Test{$/;"	n
+a	04test.cpp	/^		int a;$/;"	m	class:A	file:
+a	04test.cpp	/^		int a;$/;"	m	class:B	file:
+a	04test.cpp	/^		int a;$/;"	m	class:C	file:
+add	25.cpp	/^		friend Complex add(Complex c1,Complex c2)$/;"	f	class:Complex
+age	01test.cpp	/^	int age;$/;"	m	class:Animal	file:
+age	02test.h	/^		int age;$/;"	m	class:A
+age	03test.h	/^	int age;$/;"	m	class:Test::Ghost
+age	27.cpp	/^int age;$/;"	m	class:Ghost	file:
+b	04test.cpp	/^		int b;$/;"	m	class:A	file:
+b	04test.cpp	/^		int b;$/;"	m	class:B	file:
+b	04test.cpp	/^		int b;$/;"	m	class:C	file:
+display	03test.cpp	/^void display(Test::Ghost &g)$/;"	f
+display	05test.cpp	/^void display(A &a)$/;"	f
+getAge	01test.cpp	/^	int getAge()$/;"	f	class:Animal
+getAge	02test.h	/^		int getAge()$/;"	f	class:A
+getAge	03test.h	/^	int getAge()$/;"	f	class:Test::Ghost
+getName	01test.cpp	/^	string getName()$/;"	f	class:Animal
+getName	02test.h	/^		string getName()$/;"	f	class:A
+getName	03test.h	/^	string getName()$/;"	f	class:Test::Ghost
+getTall	02test.h	/^		int getTall()$/;"	f	class:B
+getWeight	02test.h	/^		int getWeight()$/;"	f	class:B
+image	25.cpp	/^		int image;$/;"	m	class:Complex	file:
+insert	03test.h	/^	void insert(int n)$/;"	f	class:my_vector
+largest	03test.h	/^	int largest()$/;"	f	class:my_vector
+main	01test.cpp	/^int main()$/;"	f
+main	02test.cpp	/^int main()$/;"	f
+main	03test.cpp	/^int main()$/;"	f
+main	04test.cpp	/^int main()  $/;"	f
+main	05test.cpp	/^int main()$/;"	f
+main	25.cpp	/^int main() $/;"	f
+main	27.cpp	/^int main()$/;"	f
+main	T.cpp	/^int main()$/;"	f
+main	namespace.cpp	/^int main()$/;"	f
+my_vector	03test.h	/^class my_vector{$/;"	c
+name	01test.cpp	/^	string name;$/;"	m	class:Animal	file:
+name	02test.h	/^		string name;$/;"	m	class:A
+name	03test.h	/^	string name;$/;"	m	class:Test::Ghost
+name	27.cpp	/^string name;$/;"	m	class:Ghost	file:
+operator *	25.cpp	/^		Complex operator*(const Complex &C)$/;"	f	class:Complex
+operator +	25.cpp	/^		Complex operator+(const Complex &C)$/;"	f	class:Complex
+operator -	25.cpp	/^		Complex operator-(const Complex &C)$/;"	f	class:Complex
+operator <<	25.cpp	/^		friend ostream& operator<<(ostream &cout,const Complex &c)$/;"	f	class:Complex
+operator >>	25.cpp	/^		friend istream& operator>>(istream &cin,Complex &c)$/;"	f	class:Complex
+real	25.cpp	/^		int real;$/;"	m	class:Complex	file:
+set	01test.cpp	/^	void set(string name,int age)$/;"	f	class:Animal
+set	03test.h	/^	void set(string name,int age)$/;"	f	class:Test::Ghost
+setAge	01test.cpp	/^	void setAge(int age)$/;"	f	class:Animal
+setAge	02test.h	/^		void setAge(int age)$/;"	f	class:A
+setAge	03test.h	/^	void setAge(int age)$/;"	f	class:Test::Ghost
+setName	01test.cpp	/^	void setName(string name)$/;"	f	class:Animal
+setName	02test.h	/^		void setName(string name)$/;"	f	class:A
+setName	03test.h	/^	void setName(string name)$/;"	f	class:Test::Ghost
+setTall	02test.h	/^		void setTall(int tall)$/;"	f	class:B
+setWeight	02test.h	/^		void setWeight(int weight)$/;"	f	class:B
+show	01test.cpp	/^	void show()$/;"	f	class:Animal
+show	02test.h	/^		void show()$/;"	f	class:A
+show	03test.h	/^	void show()$/;"	f	class:Test::Ghost
+show	03test.h	/^	void show()$/;"	f	class:my_vector
+show	04test.cpp	/^		void show()$/;"	f	class:A
+show	04test.cpp	/^		void show()$/;"	f	class:B
+show	04test.cpp	/^		void show()$/;"	f	class:C
+show	04test.cpp	/^		void show()$/;"	f	class:D
+show	05test.cpp	/^		virtual void show()$/;"	f	class:A
+show	05test.cpp	/^	void show()$/;"	f	class:B
+show	05test.cpp	/^	void show()$/;"	f	class:C
+show	25.cpp	/^		void show()$/;"	f	class:Complex
+show	27.cpp	/^void show()$/;"	f	class:Ghost
+show	namespace.cpp	/^	void show()$/;"	f	class:wubo::T
+t	namespace.cpp	/^	int t;$/;"	m	class:wubo::T	file:
+tall	02test.h	/^		int tall;$/;"	m	class:B
+v	03test.h	/^	vector<int> v;$/;"	m	class:my_vector
+visit	02test.h	/^	void visit(int age,string name)$/;"	f	class:B
+visit2	02test.h	/^		void visit2(int age)$/;"	f	class:C
+weight	01test.cpp	/^	int weight;$/;"	m	class:Animal	file:
+weight	02test.h	/^		int weight;$/;"	m	class:B
+wubo	namespace.cpp	/^namespace wubo{$/;"	n	file:
+~A	04test.cpp	/^		~A()$/;"	f	class:A
+~A	05test.cpp	/^		~A()$/;"	f	class:A
+~B	04test.cpp	/^		~B()$/;"	f	class:B
+~B	05test.cpp	/^	~B()$/;"	f	class:B
+~C	04test.cpp	/^		~C()$/;"	f	class:C
+~D	04test.cpp	/^		~D()$/;"	f	class:D
+~Ghost	03test.h	/^    ~Ghost()$/;"	f	class:Test::Ghost
+~Ghost	27.cpp	/^~Ghost()$/;"	f	class:Ghost
