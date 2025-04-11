@@ -3,4 +3,4 @@ learn c and c++
 
 
 My name is wubo.
-I am learnin github.
+I am learning github.
